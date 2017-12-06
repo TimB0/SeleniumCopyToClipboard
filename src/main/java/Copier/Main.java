@@ -21,7 +21,7 @@ public class Main {
         googleSearch.click();
 
 
-       CopyStringToClipBoard.basic("input.txt");
+       CopyStringToClipBoard.CopyFunction("input.txt");
 
         googleSearch.sendKeys(Keys.CONTROL,"v");
         Thread.sleep(5000);

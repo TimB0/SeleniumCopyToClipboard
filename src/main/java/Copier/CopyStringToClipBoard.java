@@ -10,7 +10,7 @@ class CopyStringToClipBoard {
 
     private static String content;
 
-    public static void basic(String filename) throws IOException {
+    public static void CopyFunction(String filename) throws IOException {
 
         FileInputStream fstream = new FileInputStream(filename);
         BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
